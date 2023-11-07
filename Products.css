@@ -1,0 +1,110 @@
+* {
+  font-family: "Georgia", serif;
+}
+
+body{
+    background: url("Pictures/Background.jpg");
+    margin: auto;
+}
+
+nav ol {
+    float: right;
+}
+
+nav ol li {
+    display: inline-block;
+    padding-top: 18px;
+}
+
+nav ol li a {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    padding-inline: 2rem;
+}
+
+.Company_Logo {
+    float: left;
+    margin: 0;
+    height: 100px;
+    width: 100px;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+.Header_Background {
+    background: #BE43AD;
+    height: 100px;
+    width: 100%;
+    box-shadow: 0 20px 10px rgba(0, 0, 0, 0.3);
+}
+
+.Products_Title h1 {
+    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+}
+
+.Game_Image{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    height: 200px;
+    width: auto;
+    border-radius: 25px;
+    box-shadow: 0 20px 10px rgba(0, 0, 0, 0.3);
+}
+
+.Product_Page_Text {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+    margin-right: 200px;
+    margin-left: 200px;
+    color: white;
+}
+
+.All_Games_Combined {
+    display: flex;
+    flex-direction: row;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-bottom: 4rem;
+}
+
+.All_Games_Combined .WOW_Monopoly {
+    text-align: center;
+    font-size: 20px;
+    background-color: #BE43AD;
+    margin: auto;
+    max-width: 325px;
+    border-radius: 15px;
+    padding: 0 10px 15px;
+    color: white;
+}
+
+.All_Games_Combined .Crashless {
+    text-align: center;
+    font-size: 20px;
+    background-color: #BE43AD;
+    margin: auto;
+    max-width: 325px;
+    border-radius: 15px;
+    padding: 0 10px 15px;
+    color: white;
+}
+
+.All_Games_Combined .Dream_Land {
+    text-align: center;
+    font-size: 20px;
+    background-color: #BE43AD;
+    margin: auto;
+    max-width: 325px;
+    border-radius: 15px;
+    padding: 0 10px 15px;
+    color: white;
+}

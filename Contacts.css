@@ -1,0 +1,76 @@
+* {
+  font-family: "Georgia", serif;
+}
+
+body{
+    background: url("Pictures/Background.jpg");
+    margin: auto;
+}
+
+nav {
+    padding-bottom: 20px;
+}
+
+nav ol {
+    float: right;
+}
+
+nav ol li {
+    display: inline-block;
+    padding-top: 18px;
+}
+
+nav ol li a {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    padding-inline: 2rem;
+}
+
+.Company_Logo {
+    float: left;
+    margin: 0;
+    height: 100px;
+    width: 100px;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+.Header_Background {
+    background: #BE43AD;
+    height: 100px;
+    width: 100%;
+    box-shadow: 0 20px 10px rgba(0, 0, 0, 0.3);
+}
+
+.Contact_Title h1{
+    text-align: left;
+    font-size: 75px;
+    font-weight: bold;
+    color: white;
+    padding-left: 190px;
+}
+
+.Contact_Text {
+    font-size: 28px;
+    margin-right: 10px;
+    color: white;
+}
+
+.Location_Image {
+    margin-left: auto;
+    height: 422px;
+    width: 624px;
+    border-radius: 25px;
+    box-shadow: 0 20px 10px rgba(0, 0, 0, 0.3);
+}
+
+.Text_and_Image_Combined {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+    padding-top: 40px;
+}
