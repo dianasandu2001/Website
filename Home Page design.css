@@ -29,9 +29,6 @@ nav ol li a {
 
 .Company_Logo {
     float: left;
-    margin: 0;
-    max-height: 5%;
-    max-width: 5%;
     padding-top: 10px;
     padding-left: 10px;
 }
